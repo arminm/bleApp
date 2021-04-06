@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bleApp",
-    "slug": "bleApp",
+    "name": "BLE App",
+    "slug": "ble-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,9 +19,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.arminmahmoudi.ble_app",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.arminmahmoudi.ble_app",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
